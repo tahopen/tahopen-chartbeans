@@ -1,5 +1,4 @@
 # Tahopen-Charbeans
-_Some description about your project here_
 
 #### Pre-requisites for building the project:
 * Maven, version 3+
