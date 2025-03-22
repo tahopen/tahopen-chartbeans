@@ -5,27 +5,21 @@
   <parent>
     <groupId>org.tahopen</groupId>
     <artifactId>tahopen-ce-jar-parent-pom</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
   <groupId>org.tahopen</groupId>
   <artifactId>tahopen-chartbeans</artifactId>
   <version>0.1.0.0</version>
   <name>tahopen-chartbeans-charting-engine</name>
-  <description>The Tahopen Chart Bean charting API.  An engine agnostic charting API.</description>
-  <url>http://www.tahopen.org</url>
-  <!--
-  <scm>
-    <connection>scm:git:git@github.com:pentaho/pentaho-chartbeans.git</connection>
-    <developerConnection>scm:git:git@github.com:pentaho/pentaho-chartbeans.git</developerConnection>
-    <url>scm:git:git@github.com:pentaho/pentaho-chartbeans.git</url>
-  </scm>
-  -->
+  <description>The Tahopen Chart Bean charting API. An engine agnostic charting API.</description>
+  <url>https://www.tahopen.org</url>
+
   <properties>
     <dependency.jfreechart.revision>1.0.13</dependency.jfreechart.revision>
     <dependency.commons-collections.revision>3.2.2</dependency.commons-collections.revision>
     <pentaho-ofc4j.version>1.1.0</pentaho-ofc4j.version>
-    <pentaho-metadata.version>0.1.0.0-SNAPSHOT</pentaho-metadata.version>
-    <pentaho-reporting.version>0.1.0.0-SNAPSHOT</pentaho-reporting.version>
+    <pentaho-metadata.version>0.1.0.0</pentaho-metadata.version>
+    <pentaho-reporting.version>0.1.0.0</pentaho-reporting.version>
   </properties>
   <dependencies>
   <!--  internal dependencies -->
